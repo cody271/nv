@@ -37,6 +37,7 @@ typedef struct _NoteFilterContext {
 } NoteFilterContext;
 
 @interface NoteObject : NSObject <NSCoding, SynchronizedNote> {
+	@public
 	NSAttributedString *tableTitleString;
 	NSString *titleString, *labelString;
 	NSMutableAttributedString *contentString;

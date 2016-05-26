@@ -10,6 +10,7 @@
 
 enum {LAST_FIND_UNKNOWN, LAST_FIND_NO, LAST_FIND_YES};
 
+#if 0
 @interface NSTextFinder : NSObject
 {
     #if MAC_OS_X_VERSION_MIN_REQUIRED >= MAC_OS_X_VERSION_10_5
@@ -95,7 +96,6 @@ enum {LAST_FIND_UNKNOWN, LAST_FIND_NO, LAST_FIND_YES};
 
 
 // Dump from 10.6 x86_64
-#if 0
 @interface NSTextFinder : NSObject <NSWindowDelegate, NSComboBoxDelegate>
 {
     NSComboBox *findComboBox;
